@@ -1,0 +1,141 @@
+      body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background:linear-gradient(gold,white);
+            color: black;
+            text-align: center;
+            padding: 0.1em;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover{
+            color:gold;
+        }
+
+        section {
+            padding: 20px;
+            background:url(mbg1.jpg);
+            background-size:cover;
+            color:white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .menu-item {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .menu-item h3 {
+            color:white;
+        }
+
+        .menu-item p {
+            color:white;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+            color: gold;
+        }
+
+        .logo {
+            display: block;
+            margin-top:5px;
+            margin-left:5px;
+            max-width: 70px;
+            float:left;
+        }
+     button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      background-color:red;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: background-color 0.3s ease;
+    }
+
+     button:hover {
+      background-color:green;
+    }
+
+     button::before {
+      content: "";
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.5);
+      width: 0;
+      height: 100%;
+      top: 0;
+      left: 2%;
+      z-index: 1;
+      transition: width 0.3s ease;
+    }
+
+     button.loading::before {
+      width: 100%;
+    }
+
+     button.loading::after {
+      content: "\f110"; /* Font Awesome checkmark icon */
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: lightgreen;
+      z-index: 2;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease;
+    }
+
+     button.success::after {
+      opacity: 1; /* Show the checkmark icon */
+    }
+     .scf {
+    text-align:center;
+    }
+     .dis{
+      color:green;
+      padding:20px;
+    }
+
+   

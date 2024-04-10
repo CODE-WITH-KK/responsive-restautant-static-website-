@@ -1,0 +1,129 @@
+       body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(home.jpg);
+            background-size:cover;
+        }
+
+        header {
+            background:linear-gradient(gold,white);
+            color: black;
+            text-align: center;
+            padding: 0.1em;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+       
+        nav a:hover{
+            color:gold;
+        }
+
+        section {
+            padding: 20px;
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/bg.jpg);
+            color:white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .hero-image {
+            background-image: url('restaurant-hero.jpg');
+            background-size: cover;
+            height: 400px;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .menu-item1 {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background:linear-gradient(gold,white);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color:black;
+        }
+
+        .menu-item2 {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background:linear-gradient(gold,white);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color:black;
+        }
+
+        .menu-item3 {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background:linear-gradient(gold,white);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color:black;
+        }
+
+        .menu-item1:hover {
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(pasta.jpg);
+            background-size: cover;
+            color:white;
+        }
+
+        .menu-item2:hover {
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(grill.jpg);
+            background-size: cover;
+            color:white;
+        }
+
+        .menu-item3:hover {
+            background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(pizza.jpg);
+            background-size: cover;
+            color:white;
+        }
+
+        span{
+            color:gold;
+        }
+
+        .logo {
+            display: block;
+            margin-top:5px;
+            margin-left:5px;
+            max-width: 70px;
+            float:left;
+        }
+
